@@ -2,15 +2,66 @@
 
 <head>
 <style>
+* {
+    border: solid 1px blue;
+}*/
+
+img {
+    width: 140px;
+}
+
+.whitebg {
+    width: 650px;
+    background: white;
+    margin: 0 auto;
+}
+
+
 body {
     font-family: helvetica;
     background: url(images/bg.png)
 
 }
 
+.header .find {
+    float: right;
+    height: 2px;
+}
 
+.header .share {
+    float: right;
+}
 
+.food1 {
+    float: left;
+    width: 312px;
+}
 
+.foodpics1 {
+    float: left;
+    border: solid lightgrey 8px;
+}
+
+.food2 {
+    float: right;
+    width: 312px;
+}
+
+.foodpics2 {
+    float: left;
+    border: solid lightgrey 8px;
+
+}
+
+p {
+    clear: both;
+}
+
+.footer {
+    border: solid black 1px;
+    background: lightgrey;
+    border-radius: 30px;
+}
 
 </style>
 
@@ -25,31 +76,81 @@ body {
 
 
 <body>
-    <img src="images/logo.png">
-    <p>Find Great Dishes</p>
-    <p>Share Great Dishes</p>
+    <div class="header">
+        <img src="images/logo.png">
+            <div class="share">
+                <p><b>Share</b></p>
+                <br>
+                <p>Great Dishes</p>
+            </div>
+            <div class="find">
+                <p><b>Find</b></p>
+                <br>
+                <p>Great Dishes</p>
+            </div>
+    </div>
+    <br>
     <h1>Find Dishes</h1>
 
-    <section>
+    <section class="whitebg">
         <div>
             <h3>Find and share great dishes, like...</h3>
         </div>
 
-        <div>
-            <img src="images/1.jpg">
-            <img src="images/2.jpg">
-            <img src="images/3.jpg">
-            <img src="images/4.jpg">
-            <img src="images/5.jpg">
-            <img src="images/6.jpg">
-            <img src="images/7.jpg">
-            <img src="images/8.jpg">
-            <img src="images/9.jpg">
+        <section class="food1">
+           <div class="foodpics1">
+                <img src="images/1.jpg">
+           </div>
+           <div class="foodpics1">
+                <img src="images/2.jpg">
+           </div>
+           <div class="foodpics1">
+                <img src="images/3.jpg">
+            </div>
+            <div class="foodpics1">
+                <img src="images/4.jpg">
+            </div>
+            <div class="foodpics1">
+                <img src="images/5.jpg">
+            </div>
+            <div class="foodpics1">
+                <img src="images/6.jpg">
+            </div>
 
+        </section>
 
-A Chicago-style hot dog, Chicago Dog, or Chicago Red Hot is an all-beef frankfurter[1][3] on a poppy seed bun,[4] originating from the city of Chicago, Illinois. The hot dog is topped with yellow mustard; chopped white onions; bright green sweet pickle relish; a dill pickle spear; tomato slices or wedges; pickled sport peppers; and a dash of celery salt.[1][5][6][7] The complete assembly of a Chicago hot dog is said to be "dragged through the garden" due to the many toppings.[8][9] The method for cooking the hot dog itself varies depending on the respective vendor's preference. Most often they are steamed, water-simmered or grilled over charcoal, the latter of which are referred to as "char-dogs."
-The canonical recipe[1] does not include ketchup, and there is a widely-shared, strong opinion among many Chicagoans and aficionados that ketchup is unacceptable. [10][11][12][13] A number of Chicago hot dog vendors do not offer ketchup as a condiment.[14]
+        <section class="food2">
+            <div class="foodpics2">
+                <img src="images/7.jpg">
+            </div>
+            <div class="foodpics2">
+                <img src="images/8.jpg">
+            </div>
+            <div class="foodpics2">
+                <img src="images/9.jpg">
+            </div>
+            <div class="foodpics2">
+                <img src="images/10.jpg">
+            </div>
+            <div class="foodpics2">
+                <img src="images/11.jpg">
+            </div>
+            <div class="foodpics2">
+                <img src="images/12.jpg">
+             </div>
+        </section>
 
+<p>
+    A Chicago-style hot dog, Chicago Dog, or Chicago Red Hot is an all-beef frankfurter[1][3] on a poppy seed bun,[4] originating from the city of Chicago, Illinois. The hot dog is topped with yellow mustard; chopped white onions; bright green sweet pickle relish; a dill pickle spear; tomato slices or wedges; pickled sport peppers; and a dash of celery salt.[1][5][6][7] The complete assembly of a Chicago hot dog is said to be "dragged through the garden" due to the many toppings.[8][9] The method for cooking the hot dog itself varies depending on the respective vendor's preference. Most often they are steamed, water-simmered or grilled over charcoal, the latter of which are referred to as "char-dogs."
+    The canonical recipe[1] does not include ketchup, and there is a widely-shared, strong opinion among many Chicagoans and aficionados that ketchup is unacceptable. [10][11][12][13] A number of Chicago hot dog vendors do not offer ketchup as a condiment.[14]
+</p>
     </section>
+
+<div class="footer">
+    <span>
+        See all the best <b>></b>
+    </span>
+</div>
+
 </body>
 </html>
