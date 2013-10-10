@@ -1,34 +1,92 @@
 <html>
 <head>
-    <style> p {
+    <style>
+    * {
+        background: #999;
+
+    * {
+        border: 1px blue;
+    }
+
+    }
+
+    p {
         float: right;
         margin: 10px;
         font-family: helvetica;
-        font-weight: bold;
+        font-weight: normal;
     }
+    body {
+        font-family: helvetica;
+        font-style: normal;
+         margin: 0 auto;
+    }
+    img {
+        width: 140px;
+        height: 140px;
+    }
+
+    .logo {
+        width: 300px;
+        height: auto;
+    }
+
+.left-gallery {
+    /*border: 1px solid gray;*/
+    float: left;
+    width: 286px;
+    margin-right: 30px
+}
+
+.right-gallery {
+   width: 286px;
+   float: left;
+    /*border: 1px solid gray;*/
+}
+
+div p {
+    font-weight: normal;
+}
+
+div {
+
+}
 
     </style>
 </head>
 
 <body>
-<img src="images/logo.png" alt="">
-<p>Share</p>
-<p>Find</p>
 
- <h1>Find Dishes</h1>
+<img class="logo" src="images/logo.png" alt="">
+
+<div >
+<p><b>Share</b></p>
+<p>Great Dishes</p>
+</div>
 
 <div>
+<p><b>Find</b></p>
+<p>Great Dishes</p>
+</div>
+
+
+
+ <h1>Find Dishes</h1>
+<div class="left-gallery">
 <img src="images/1.jpg" alt="">
 <img src="images/2.jpg" alt="">
-<img src="images/3.jpg" alt="">
+<!--     <br class="clearboth">
+ --><img src="images/3.jpg" alt="">
 <img src="images/4.jpg" alt="">
+    <!-- <br class="clearboth"> -->
 <img src="images/5.jpg" alt="">
 <img src="images/6.jpg" alt="">
 </div>
 
-<div>
+<div class="right-gallery">
 <img src="images/7.jpg" alt="">
 <img src="images/8.jpg" alt="">
+    <!-- <br class="clearboth"> -->
 <img src="images/9.jpg" alt="">
 <img src="images/10.jpg" alt="">
 <img src="images/11.jpg" alt="">
